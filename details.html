@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.google.com/specimen/Nunito+Sans" rel="stylesheet">
+        
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"> -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    body{
+                margin: 0px;
+                background-color: rgb(246, 244, 244);
+            }
+            nav{
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 15px;
+                padding-top: 15px;
+                margin: 0px ;
+                background-color: white;
+                border-bottom: 1px solid rgb(215, 213, 213);
+                box-shadow: 1px 1px rgb(227, 226, 226);
+                font-family: Nunito Sans;
+            }
+            @font-face{
+                font-family: Nunito Sans;
+                src:url(NunitoSans-Regular.ttf);
+            }
+            main {
+                padding-left: 40px;
+                padding-right: 40px;
+                padding-bottom: 15px;
+                padding-top: 15px;
+                /* background-color: aqua; */
+            }
+
+            .element1{
+                /* float: left; */
+                font-weight: bold;
+                /* display : inline; */
+            }
+            .element2{
+                float: right;
+            }
+
+            .back-button{
+                 width: 100px;
+                height: 40px;
+                margin-bottom: 40px;
+                margin-top: 30px;
+                /* margin-left: 40px; */
+                border: solid 3px;
+                /* box-shadow: 3px 3px #eeeded; */
+                border-color: #eeeded;
+                border-radius: 5px;
+                background-color: white;
+                /* float: left; */
+                /* display: inline-block; */
+                /* position: relative; */
+                font-family: Nunito Sans;
+                color: #858585;
+                font-size:small ;
+                text-align: center;
+            }
+            /* .main-details{
+                
+            } */
+            .image{
+                width: 45%;
+                float: left;
+                height: 50%;
+                /* display: inline-block; */
+                /* margin-left: 40px; */
+
+            }
+            img{
+                height: 400px;
+                width: 100%;
+                object-fit: cover;
+                /* border-top-left-radius: 5px;
+                border-top-right-radius: 5px; */
+            }
+            
+            .details{
+                margin-left: 50%;
+                padding-top: 30px;
+                font-family: Nunito Sans;
+            }
+
+            .country{
+                
+                font-weight: 900;
+                font-size: x-large;
+                /* font-weight: bold; */
+            }
+            .property{
+                display: inline;
+                font-weight: bolder;
+            }
+            .value{
+                display: inline;
+                padding-left: 2px;
+            }
+            .row-detail{
+                display: inline-block;
+                margin-bottom: 7px;
+            }
+            .col1{
+                /* float: left; */
+                display: inline-block;
+
+            }
+            .col2{
+                
+                padding-left: 20%;
+                display: inline-block;
+                /* padding-bottom: 20%; */
+                /* top:0; */
+                /* position: absolute; */
+            }
+            /* .div3{
+                float: bottom;
+            } */
+            .cols{
+                display: flex;
+                position: relative;
+                font-size: small;
+                /* padding-bottom: 30px; */
+            }
+            .button{
+
+                width: 100px;
+                height: 40px;
+                margin-bottom: 40px;
+                margin-top: 15%;
+                /* margin-left: 40px; */
+                border: solid 3px;
+                /* box-shadow: 3px 3px #eeeded; */
+                border-color: #eeeded;
+                border-radius: 5px;
+                background-color: white;
+                /* float: left; */
+                /* display: inline-block; */
+                /* position: relative; */
+                font-family: Nunito Sans;
+                color: #858585;
+                font-size:small ;
+                display: inline-block;
+                text-align: center;
+            }
+            @media only screen and (max-width: 768px) {
+            /* For mobile phones: */
+                [class*="image"] {
+                    float: none;
+                }
+                [class*="col1"] {
+                    display: block;
+                }
+                [class*="col2"] {
+                    display: block;
+                    padding-left: 0px;
+                    padding-top: 30px;
+                }
+                [class*="cols"] {
+                    display: block;
+                }
+
+                [class*="details"] {
+                    margin-left: 0px;
+                }
+                [class*="border-countries"] {
+                    display: block;
+                    padding-top: 30px;
+                }
+                [class*="button"] {
+                    /* display: block; */
+                    margin-top: 10px;
+                }
+                [class*="image"] {
+                    /* display: block; */
+                    width: 90%;
+                }
+                
+                
+            }
+            a:link { text-decoration: none; color: #858585; }
+
+
+            a:visited { text-decoration: none; color: #858585; }
+
+
+            a:hover { text-decoration: none; color: #858585; }
+
+
+            a:active { text-decoration: none; color: #858585; }
+            
+
+</style>
+</head>
+<body>
+    <nav>
+        <a class="navbar element1">Where in the word?</a>
+        <a class="navbar element2"> <i class="fa-regular fa-moon"></i> Dark Mode</a>
+    </nav>
+    <main>
+    <div>
+    <div class="back-button"><a href="index.html">
+        <p  class="back"><ion-icon  name="arrow-back"></ion-icon> Back </p>
+    </a></div></div>
+    <div class="main-details">
+        <div class="image"><img alt="flag" src="assets/de.svg"></div>
+    </div>
+    <div class="details">
+        <p class="country">Belguim</p>
+        <div class="cols">
+        <div class="col1">
+            <span class="row-detail"><p class="property">Native Name:</p><p class="value">Bilgi</p></span>
+            <br>
+            <span class="row-detail"><p class="property">Population:</p><p class="value">11.319.468</p></span>
+            <br>
+            <span class="row-detail"><p class="property">Region:</p><p class="value">Europ</p></span>
+            <br>
+            <span class="row-detail"><p class="property">Sub Region:</p><p class="value">Wesern Europ</p></span>
+            <br>
+            <span class="row-detail"><p class="property">Capital:</p><p class="value">Brussels</p></span>
+            
+        </div>
+        <div class="col2">
+            <span class="row-detail"><p class="property">Top Level Domain:</p><p class="value">.be</p></span>
+            <br>
+            <span class="row-detail"><p class="property">Currencies:</p><p class="value">Euro</p></span>
+            <br>
+            <span class="row-detail"><p class="property">Languages:</p><p class="value">Dutch, French, German</p></span>
+            
+        </div></div>
+        <div class="div3">
+            <span class="border-countries" style="font-weight: bolder ;">Border Countries:</span>
+            <div class="button">
+                <p  class="back"> France </p>
+            </div>
+            <div class="button">
+                <p  class="back"> Germany </p>
+            </div>
+            <div class="button">
+                <p  class="back"> NetherLand </p>
+            </div>
+
+        </div>
+    </div>
+    
+</main> 
+        
+    
+</body>
+</html>
